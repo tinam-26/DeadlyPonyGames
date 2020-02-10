@@ -1,38 +1,18 @@
 {
-    "id": "31a0ec86-dcb6-4dfa-b86b-2c9e2690cabb",
+    "id": "06a3c67a-a9fc-4dcb-986f-2175974f6648",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemy",
+    "name": "obj_bullet",
     "eventList": [
         {
-            "id": "abd82585-74a2-4e9a-a8ed-c84dd11f9f7e",
+            "id": "46cde323-8492-4304-b3d2-c81c34d3b6ba",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "31a0ec86-dcb6-4dfa-b86b-2c9e2690cabb"
-        },
-        {
-            "id": "b22c5e69-f1cb-4b1d-89cf-a8933bfbb678",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "a41f0bf2-d690-4987-9ed3-26186d3fb994",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "31a0ec86-dcb6-4dfa-b86b-2c9e2690cabb"
-        },
-        {
-            "id": "540cdb24-be7f-490a-ad5d-76fa132a8e57",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "31a0ec86-dcb6-4dfa-b86b-2c9e2690cabb"
+            "m_owner": "06a3c67a-a9fc-4dcb-986f-2175974f6648"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "671c51e8-d528-4ec2-9814-97b9720999c3",
+            "id": "c2c1fa81-7be0-4ed6-9c08-f7dad73c4a71",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -62,12 +42,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "30",
-            "varName": "bullet_alarm",
+            "value": "-5",
+            "varName": "shoot_speed",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "396bae86-020a-4ba4-b961-f9a0d984a513",
+    "spriteId": "b4690c59-51c9-4351-903d-442b5d850cd0",
     "visible": true
 }
