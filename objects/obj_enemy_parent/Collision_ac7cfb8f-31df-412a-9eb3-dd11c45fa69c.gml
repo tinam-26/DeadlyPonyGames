@@ -1,0 +1,1 @@
+global.player_hp -= enemy_damage;
