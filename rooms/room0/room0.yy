@@ -272,7 +272,8 @@
         "9fe04a91-6cc2-40ac-ad75-b025554f8aa6",
         "e11d51da-bb3a-44dc-9b10-e025dc716062",
         "af983169-c69b-4e65-bc0d-ad2e29c398a0",
-        "5d35f01a-bd6b-4ffd-9393-5514eaf414e2"
+        "5d35f01a-bd6b-4ffd-9393-5514eaf414e2",
+        "73f3f887-6ca8-49b1-9f5d-b1cf846545c8"
     ],
     "IsDnD": false,
     "layers": [
@@ -290,7 +291,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_66D030DC","id": "266f8e14-ce18-4586-8a38-5fb946e9b5c6","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_66D030DC","objId": "974e03db-cd1e-460c-b55b-caffec0bbb9a","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 34,"y": 732}
+{"name": "inst_66D030DC","id": "266f8e14-ce18-4586-8a38-5fb946e9b5c6","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_66D030DC","objId": "974e03db-cd1e-460c-b55b-caffec0bbb9a","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 34,"y": 732},
+{"name": "inst_2AB8444B","id": "73f3f887-6ca8-49b1-9f5d-b1cf846545c8","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2AB8444B","objId": "d726b364-2005-4939-8262-86de70da6a75","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 32,"y": 64}
             ],
             "layers": [
 

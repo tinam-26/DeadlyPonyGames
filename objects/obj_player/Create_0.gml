@@ -1,1 +1,2 @@
-global.player_hp = 100; 
+global.player_hp = 100;
+gravity_direction = 270;
