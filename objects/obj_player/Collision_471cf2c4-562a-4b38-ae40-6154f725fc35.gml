@@ -2,7 +2,11 @@
 if (vspeed > 0  && y <= (other.y + 8)){
 	instance_destroy(other);
 }
-//lose life
+//damage enemy if hit
+else if (keyboard_key_press(ord("X"))){
+	//TODO: Insert code to decrement enemy health by damage
+}
+//lose life if none of above
 else {
 	with(obj_player) {
 	if(!variable_instance_exists(id, "lives")) lives = 0;
