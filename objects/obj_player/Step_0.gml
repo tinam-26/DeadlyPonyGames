@@ -3,6 +3,14 @@
 
 //note: has a spr_box as a collision mask in order to allows for proper collisions
 
+//gravity
+if instance_place(x, y+1, obj_platforms){
+	gravity = 0;
+}
+else {
+	gravity = 1;
+}
+
 //left + right movement
 if(!keyboard_check(vk_right) && !keyboard_check(vk_left)){
 	hspeed = 0; 
