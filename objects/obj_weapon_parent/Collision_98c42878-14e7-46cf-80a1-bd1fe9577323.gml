@@ -1,0 +1,1 @@
+other.enemy_health -= 50; 
