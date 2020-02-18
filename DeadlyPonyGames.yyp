@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "e9492caa-0c26-49cb-ae13-9b59652311f1",
+            "Value": {
+                "id": "b99da437-da37-4bd3-8eb9-1e24a4c0b39b",
+                "resourcePath": "scripts\\scr_playerStateAttack\\scr_playerStateAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ebca34e9-79aa-423e-bb7a-c016f30b9671",
             "Value": {
                 "id": "58f144ad-2262-49eb-884c-ba375ae001de",
@@ -461,11 +469,21 @@
                 "resourcePath": "objects\\obj_cotton_candy\\obj_cotton_candy.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "fee1d22e-4887-44cb-b840-c253a808bf96",
+            "Value": {
+                "id": "9f64b9d8-7ac8-4c97-bffe-ca1799455353",
+                "resourcePath": "scripts\\scr_playerStateFree\\scr_playerStateFree.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
         "d51d1e3d-897e-46b3-8817-b13f4d6531bf",
-        "0210b930-e77d-41f3-afeb-49b10d59fa4b"
+        "0210b930-e77d-41f3-afeb-49b10d59fa4b",
+        "fee1d22e-4887-44cb-b840-c253a808bf96",
+        "e9492caa-0c26-49cb-ae13-9b59652311f1"
     ],
     "tutorial": ""
 }
