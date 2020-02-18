@@ -1,6 +1,7 @@
-/// @description Insert description here
-
-//prompt user to open chest
-//"press "E" to open"
-
 //if E pressed, add extra life to map and destroy chests
+if(keyboard_check(ord("E"))){
+	lives += 1; 
+	instance_destroy(self);
+	instance_destroy(obj_bad_chest);
+	//TODO: Change Background
+}

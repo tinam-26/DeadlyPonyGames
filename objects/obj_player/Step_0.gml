@@ -25,3 +25,18 @@ switch(state){
 //checking collisions
 if vspeed != 0 then scr_verticalCollision()
 if hspeed != 0 then scr_horizontalCollision()
+
+
+//check if collided with chest (is from FSM workshop)
+var bestDistance = maxGrabDistance;
+grabTarget = noone;
+	
+with obj_good_chest{
+	var thisDistance = point_distance(x,y,other.x,other.y);
+			
+	if thisDistance < bestDistance {
+		bestDistance = thisDistance
+		//In this context, 'other' is obj_player
+		other.grabTarget = id
+	}
+}
