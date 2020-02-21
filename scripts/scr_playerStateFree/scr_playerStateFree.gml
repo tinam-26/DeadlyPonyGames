@@ -12,4 +12,4 @@ if(!keyboard_check(vk_right) && !keyboard_check(vk_left)){
 	hspeed = (keyboard_check(vk_right) - keyboard_check(vk_left)) * 5 
 }
 
-obj_weapon_parent.image_speed = 0; 
+//obj_weapon_parent.image_speed = 0; 

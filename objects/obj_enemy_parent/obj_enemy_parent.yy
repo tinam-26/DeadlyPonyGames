@@ -89,6 +89,20 @@
             "value": "10",
             "varName": "enemy_damage",
             "varType": 0
+        },
+        {
+            "id": "c03b14ff-b8b8-4f42-ad9e-74544a9b6507",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "enemy_heatlh",
+            "varType": 0
         }
     ],
     "solid": false,
