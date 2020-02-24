@@ -1,2 +1,1 @@
-damage = other.damage;
-instance_destroy(other);
+has_weapon = true; 
