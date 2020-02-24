@@ -13,15 +13,11 @@ else {
 	lives += real(-1);
 	}
 	
-	with(obj_player) {
-	if(!variable_instance_exists(id, "lives")) lives = 0;
-	}
-	
 	if(lives > 0)
 	{
 		x = xstart;
 		y = ystart;
-	
+		
 		room_restart();
 	}
 	
