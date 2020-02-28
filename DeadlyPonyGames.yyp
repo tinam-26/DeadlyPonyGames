@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "4237f9d4-b6de-47b3-b649-5ffbe7dd2e3f",
+            "Value": {
+                "id": "047265a5-2a56-4816-b558-d0432d837bdb",
+                "resourcePath": "shaders\\shader_fog\\shader_fog.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "44a3bb3f-c100-40c0-8533-5ebebf7512f7",
             "Value": {
                 "id": "754a0e12-f5b0-4cbc-84da-430f79c8cd81",
