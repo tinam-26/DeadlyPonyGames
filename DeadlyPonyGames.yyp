@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "c065650c-c1f3-4e88-9973-cc466407baff",
+            "Value": {
+                "id": "d9fca5ef-f8ad-443b-98ea-e59b146bedb1",
+                "resourcePath": "objects\\obj_shader_fog\\obj_shader_fog.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c4f034d2-7d7e-4f82-ab08-a7ec990bb518",
             "Value": {
                 "id": "36afc9ff-82ae-4a48-b03f-89ede5e4ce5a",
