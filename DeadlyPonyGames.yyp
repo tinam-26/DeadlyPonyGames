@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0e7e21da-02d3-4540-8dfa-d497e941cc86",
+            "Value": {
+                "id": "6fa5cc65-7789-4f25-b82e-ea6e124419eb",
+                "resourcePath": "sprites\\spr_enemy_octo\\spr_enemy_octo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "138748f0-c9d5-4002-a7ae-22214004ec1a",
             "Value": {
                 "id": "4365d754-5bba-40df-b51c-962c9ad438d0",
@@ -106,7 +114,7 @@
             "Key": "31a0ec86-dcb6-4dfa-b86b-2c9e2690cabb",
             "Value": {
                 "id": "c18671d7-080d-4c5a-93c7-f26b018581ac",
-                "resourcePath": "objects\\obj_enemy_bullet\\obj_enemy_bullet.yy",
+                "resourcePath": "objects\\obj_enemy_bear\\obj_enemy_bear.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -122,7 +130,7 @@
             "Key": "396bae86-020a-4ba4-b961-f9a0d984a513",
             "Value": {
                 "id": "c073566e-2382-432f-8cb0-aba1baed0078",
-                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
+                "resourcePath": "sprites\\spr_enemy_bear\\spr_enemy_bear.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -210,7 +218,15 @@
             "Key": "7ef5cdb5-84ba-4944-aacc-d3dcc1033b4a",
             "Value": {
                 "id": "e99bb21c-db5d-4995-861c-023e775a72fa",
-                "resourcePath": "sprites\\spr_enemy_path_rotate\\spr_enemy_path_rotate.yy",
+                "resourcePath": "sprites\\spr_enemy_ferris_wheel\\spr_enemy_ferris_wheel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "84795c05-b950-4854-a484-41320d0755aa",
+            "Value": {
+                "id": "39cc32b5-3bf4-4a77-8da7-406cbf9eb483",
+                "resourcePath": "sprites\\spr_enemy_paint\\spr_enemy_paint.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -322,7 +338,7 @@
             "Key": "b5e6ba15-49f5-4d8d-8502-b54d6d16edde",
             "Value": {
                 "id": "7e63ed84-5476-49c1-827b-350197e22283",
-                "resourcePath": "objects\\obj_enemy_path_rotate\\obj_enemy_path_rotate.yy",
+                "resourcePath": "objects\\obj_enemy_ferris_wheel\\obj_enemy_ferris_wheel.yy",
                 "resourceType": "GMObject"
             }
         },

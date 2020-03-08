@@ -1,5 +1,5 @@
 //kill enemy if jumped on
-if (vspeed > 0  && y <= (other.y + 8)){
+if (vspeed > 0  && y <= (other.y - 256)){
 	instance_destroy(other);
 }
 //damage enemy if hit
