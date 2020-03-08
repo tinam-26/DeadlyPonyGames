@@ -14,6 +14,18 @@ if(keyboard_check(ord("W")) && has_weapon){
 	state = PLAYERSTATE.ATTACK;
 }else{
 	key_attack = false;
+	state = PLAYERSTATE.FREE;
+}
+
+if(keyboard_check(ord("J"))){
+	state = PLAYERSTATE.ATTACK;
+}
+
+//left + right movement
+if(!keyboard_check(vk_right) && !keyboard_check(vk_left)){
+	hspeed = 0; 
+}else{
+	hspeed = (keyboard_check(vk_right) - keyboard_check(vk_left)) * 5 
 }
 
 //do they attack? let's find out
