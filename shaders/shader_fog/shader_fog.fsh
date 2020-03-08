@@ -3,7 +3,7 @@
 varying vec2 v_vTexcoord; //== uv
 //varying vec4 v_vColour; not used
 
-int OCTAVES = 4; //fineness of the fog
+int OCTAVES = 8; //fineness of the fog
 uniform float u_time; //for motion, passed in every step
  
 //generates "random" numbers 
@@ -45,9 +45,9 @@ float fbm(vec2 uv){
 
 void main()
 {
-	vec2 coord = v_vTexcoord * 50.0; 
+	vec2 coord = v_vTexcoord * 70.0; 
 	vec2 motion = vec2(fbm(coord + u_time * .005));  //animates fog 
-	float final = fbm(motion + coord * 0.7); //secondary pass through fbm, changes alpha
+	float final = fbm(motion + coord * 0.7); //secondary pass through fbm
 	
     gl_FragColor = vec4(vec3(0.5,0.1,0.6),final); //vec3 = color, final = alpha
 }
