@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "7dd673dc-37eb-4b84-a082-8c743b005a52",
+            "Value": {
+                "id": "b873c713-655d-4765-92e4-cb87c1073723",
+                "resourcePath": "objects\\obj_enemy_dog\\obj_enemy_dog.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7ef5cdb5-84ba-4944-aacc-d3dcc1033b4a",
             "Value": {
                 "id": "e99bb21c-db5d-4995-861c-023e775a72fa",
@@ -316,6 +324,14 @@
                 "id": "9f52b0e1-8a13-4816-930d-d788c3ada989",
                 "resourcePath": "views\\869c74e6-3198-45b0-a383-60f57538f5d1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "88a61eba-2026-4c35-af40-86877925e92b",
+            "Value": {
+                "id": "67d3abfc-76c3-444d-ac10-ac169abf25b2",
+                "resourcePath": "objects\\obj_enemy_paint\\obj_enemy_paint.yy",
+                "resourceType": "GMObject"
             }
         },
         {
