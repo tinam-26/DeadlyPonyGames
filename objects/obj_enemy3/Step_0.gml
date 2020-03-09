@@ -6,12 +6,11 @@ if(enemy_health <= 0){
 }
 
 
-if(obj_player.state == PLAYERSTATE.ATTACK){
-	//if player hit enemy 
-		//move twenty pixel the other direction 
-	if(place_meeting(self.x-20, self.y, obj_player)){
-		x += 20; 	
-	}else if(place_meeting(self.x + 20, self.y, obj_player)){
-		x -= 20; 
-	}
+
+//if player hit enemy 
+	//move twenty pixel the other direction 
+if(place_meeting(self.x - 100, self.y, obj_player)){
+	vspeed = -vspeed; 	
+}else if(place_meeting(self.x + 100, self.y, obj_player)){
+	vspeed = -vspeed;  
 }
