@@ -5,12 +5,11 @@ if(enemy_health <= 0){
 	instance_destroy(self); 
 }
 
-
-
-//if player hit enemy 
-	//move twenty pixel the other direction 
-if(place_meeting(self.x - 100, self.y, obj_player)){
-	vspeed = -vspeed; 	
-}else if(place_meeting(self.x + 100, self.y, obj_player)){
-	vspeed = -vspeed;  
+//enemy follows player
+if(self.x > obj_player.x){
+	hspeed = enemy_speed;
+}else if(self.x < obj_player.x){
+	hspeed = -enemy_speed;  
 }
+
+
