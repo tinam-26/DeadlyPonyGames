@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "6814ef0c-1c86-4cca-ae3c-c83d5c1c78ad",
+            "Value": {
+                "id": "8c4db48f-74f7-4b05-a383-5bdc78b2ed57",
+                "resourcePath": "views\\6814ef0c-1c86-4cca-ae3c-c83d5c1c78ad.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7188deb7-1e1c-4752-adc3-548a8c0d995e",
             "Value": {
                 "id": "b2d64801-5b86-45e5-95ee-5a38c2c2ba21",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "8adf4982-1f4c-4417-830f-c64dbb73e61a",
+            "Value": {
+                "id": "7f85343b-d7da-4345-b512-52c7f306afb0",
+                "resourcePath": "shaders\\shader_fog\\shader_fog.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "8b8da20d-baac-43a6-a781-84a6a7ae6ace",
             "Value": {
                 "id": "c2a810e0-637b-42c5-90df-38d072fbf306",
@@ -311,6 +327,14 @@
             }
         },
         {
+            "Key": "a10f1bbc-3b9e-4d06-9055-69a9a4328413",
+            "Value": {
+                "id": "4e9f41ec-ed4b-42b5-b177-40727fa93340",
+                "resourcePath": "objects\\obj_enemy_octo\\obj_enemy_octo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a41f0bf2-d690-4987-9ed3-26186d3fb994",
             "Value": {
                 "id": "f93a6a9f-a87a-43ca-a542-a42d1457ac67",
@@ -335,19 +359,19 @@
             }
         },
         {
-            "Key": "afe3430e-2d18-4a27-9c54-40e342fac9fa",
-            "Value": {
-                "id": "7e2d43d6-429e-45c3-87c6-afbaac3e667e",
-                "resourcePath": "views\\afe3430e-2d18-4a27-9c54-40e342fac9fa.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "b0ba2fa0-dccf-49d1-a016-3ec4c07d3917",
             "Value": {
                 "id": "d621164c-9fe4-4ffe-8a7a-87590e7a0dfa",
                 "resourcePath": "views\\b0ba2fa0-dccf-49d1-a016-3ec4c07d3917.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b0dd0b6f-edf7-4677-9baa-1aedd4103911",
+            "Value": {
+                "id": "89c7af05-7ca5-4810-afd8-de4ad4894656",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -388,6 +412,14 @@
                 "id": "6944b2ea-f625-42bd-b97e-d3890b05aff5",
                 "resourcePath": "views\\bcef7504-2a54-4d33-aef9-ad2602bb7b80.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c172ce42-aace-437f-8fde-d07e0646cac3",
+            "Value": {
+                "id": "d58f9aa9-afb8-424d-a23a-90750df0c06c",
+                "resourcePath": "timelines\\tmlne_enemy\\tmlne_enemy.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -436,6 +468,14 @@
                 "id": "a75d225b-5bfd-42b8-be17-222317a4ba46",
                 "resourcePath": "sprites\\spr_E\\spr_E.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d0a9b6d1-13c3-4e35-9db6-747a8f49d92a",
+            "Value": {
+                "id": "cc2f278d-dff7-40c1-9866-15c6c091185c",
+                "resourcePath": "objects\\obj_fog_shader\\obj_fog_shader.yy",
+                "resourceType": "GMObject"
             }
         },
         {

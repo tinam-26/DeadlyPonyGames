@@ -22,6 +22,21 @@ switch(state){
 	case PLAYERSTATE.ATTACK: scr_playerStateAttack(); show_debug_message("attack") break;
 }
 
+//left + right movement
+if(!keyboard_check(vk_right) && !keyboard_check(vk_left)){
+	hspeed = 0;
+	image_speed = 0;
+}else{
+	hspeed = (keyboard_check(vk_right) - keyboard_check(vk_left)) * 5 
+	image_speed = 1;
+	if(keyboard_check(vk_right)){
+		sprite_index = spr_player
+	}
+	else{
+		sprite_index = spr_player_left
+	}
+}
+
 //checking collisions
 if vspeed != 0 then scr_verticalCollision()
 if hspeed != 0 then scr_horizontalCollision()
