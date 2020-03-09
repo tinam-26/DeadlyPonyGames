@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01a5b8d6-6bd6-44b6-94fc-e23d353b909f",
+            "Value": {
+                "id": "e3caa141-53ee-48bf-abfa-f6c436eb8610",
+                "resourcePath": "rooms\\rm_transition3\\rm_transition3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0210b930-e77d-41f3-afeb-49b10d59fa4b",
             "Value": {
                 "id": "1c1e59fa-6333-45d7-9f88-97543037b97a",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "31ede0d0-621a-4509-ab08-73a30026e64d",
+            "Value": {
+                "id": "a71b2336-74f3-47e9-8a67-25df90e0d97f",
+                "resourcePath": "rooms\\rm_level3\\rm_level3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "341da1c9-0a4b-4b8d-97e0-b5b27e02549a",
             "Value": {
                 "id": "6fc5ac2d-c9c8-49c4-a7d9-318300dfb378",
@@ -172,6 +188,14 @@
                 "id": "c073566e-2382-432f-8cb0-aba1baed0078",
                 "resourcePath": "sprites\\spr_enemy_bear\\spr_enemy_bear.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3d2b27d1-207f-423a-a81b-9060594a05de",
+            "Value": {
+                "id": "3cd422d9-35f0-4243-beee-f68e8594bb35",
+                "resourcePath": "rooms\\rm_transition2\\rm_transition2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -572,6 +596,14 @@
                 "id": "d70ba828-a23a-46cd-bf91-1eb6cf50a449",
                 "resourcePath": "objects\\obj_lives\\obj_lives.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "db984fb6-a3f4-434f-a14f-9469c20c3390",
+            "Value": {
+                "id": "b509ef75-1e8e-42d4-85d3-8c2952384992",
+                "resourcePath": "rooms\\rm_transition1\\rm_transition1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
