@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0b50c86f-db83-43a5-a35b-3290acfb9462",
+            "Value": {
+                "id": "f16723b6-2035-4576-aa6c-5b8dd2527406",
+                "resourcePath": "sprites\/spr_good_memory_1\/spr_good_memory_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e7e21da-02d3-4540-8dfa-d497e941cc86",
             "Value": {
                 "id": "6fa5cc65-7789-4f25-b82e-ea6e124419eb",
@@ -259,6 +267,14 @@
             "Value": {
                 "id": "e14c3b59-af2b-40a7-83a3-a87e2a3ced89",
                 "resourcePath": "sprites\/spr_cotton_candy\/spr_cotton_candy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5e27f40a-5296-440b-9a14-789e1ec476d8",
+            "Value": {
+                "id": "ecd7e98f-7191-46a1-8b98-92b9ac036ec7",
+                "resourcePath": "sprites\/spr_bad_memory1\/spr_bad_memory1.yy",
                 "resourceType": "GMSprite"
             }
         },
