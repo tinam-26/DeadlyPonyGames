@@ -1,6 +1,9 @@
-if(obj_player.has_weapon){
-	obj_player.hspeed = 0; 
-	obj_weapon_parent.image_speed = 10; 
+obj_player.has_weapon = true; 
+
+time = obj_player.time;
+
+if(time > 0){
+	time--;
 }else{
-	obj_weapon_parent.image_speed = 0; 
+	obj_player.state = PLAYERSTATE.FREE;
 }
