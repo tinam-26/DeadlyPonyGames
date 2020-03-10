@@ -23,13 +23,15 @@ if(gravity == 1){
 }
 
 //check if player attacks
-if(keyboard_check(ord("W")) && has_weapon){
-	alarm[0] = 60;
-	key_attack = true; 
-	state = PLAYERSTATE.ATTACK;
-	can_attack = false; 
-}else{
-	key_attack = false;
+if(alarm[0] < 1){
+	if(keyboard_check(ord("W")) && has_weapon && can_attack){
+		key_attack = true; 
+		state = PLAYERSTATE.ATTACK;
+		can_attack = false; 
+		alarm[0] = 120; 
+	}else{
+		key_attack = false;
+	}
 }
 
 //do they attack? let's find out
@@ -58,18 +60,6 @@ if(!keyboard_check(vk_right) && !keyboard_check(vk_left)){
 			}else{
 				sprite_index = spr_player;
 			}
-		}else{
-			image_speed = 0; 
-			if(room == rm_level1){
-				sprite_index = spr_player_attacking;
-				image_index = 1;
-			}else if(room == rm_level2){
-				sprite_index = spr_player_attacking;
-				image_index = 2;
-			}else if(room == rm_level3){
-				sprite_index = spr_player_attacking;
-				image_index = 3;
-			}
 		}
 	}
 	else {
@@ -84,18 +74,6 @@ if(!keyboard_check(vk_right) && !keyboard_check(vk_left)){
 				}
 			}else{
 				sprite_index = spr_player;
-			}
-		}else{
-			image_speed = 0; 
-			if(room == rm_level1){
-				sprite_index = spr_player_attacking_left;
-				image_index = 1;
-			}else if(room == rm_level2){
-				sprite_index = spr_player_attacking_left;
-				image_index = 2;
-			}else if(room == rm_level3){
-				sprite_index = spr_player_attacking_left;
-				image_index = 3;
 			}
 		}
 	}

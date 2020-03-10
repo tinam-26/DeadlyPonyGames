@@ -1,9 +1,28 @@
 obj_player.has_weapon = true; 
 
-time = obj_player.time;
-
-if(time > 0){
-	time--;
+if(keyboard_check(vk_right)){
+	//image_speed = 0; 
+	if(room == rm_level1){
+		sprite_index = spr_player_attacking;
+		image_index = 0;
+	}else if(room == rm_level2){
+		sprite_index = spr_player_attacking;
+		image_index = 1;
+	}else if(room == rm_level3){
+		sprite_index = spr_player_attacking;
+		image_index = 2;
+	}
 }else{
-	obj_player.state = PLAYERSTATE.FREE;
+	//image_speed = 0; 
+	if(room == rm_level1){
+		sprite_index = spr_player_attacking_left;
+		image_index = 0;
+	}else if(room == rm_level2){
+		sprite_index = spr_player_attacking_left;
+		image_index = 1;
+	}else if(room == rm_level3){
+		sprite_index = spr_player_attacking_left;
+		image_index = 2;
+	}
 }
+
