@@ -1,5 +1,6 @@
 //if E pressed, add extra life to map and destroy chests
 global.memory_flag = 1
+global.good_count++;
 
 if(keyboard_check(ord("E"))){
 	
