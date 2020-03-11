@@ -274,7 +274,7 @@
             "Key": "51be10c7-7396-4b17-a69b-3df88fab8e4d",
             "Value": {
                 "id": "673b90de-0def-414e-b421-9f734c5890ec",
-                "resourcePath": "objects\/obj_quit_button1\/obj_quit_button1.yy",
+                "resourcePath": "objects\\obj_quit_button1\\obj_quit_button1.yy",
                 "resourceType": "GMObject"
             }
         },
