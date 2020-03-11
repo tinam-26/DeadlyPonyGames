@@ -28,4 +28,6 @@ if(place_meeting(x, y + vspeed, obj_platforms)){
 	}
 	vspeed = 0
 	gravity = 0
+	
+	//TODO: change sprite here
 }

@@ -22,6 +22,7 @@ if(place_meeting(x + hspeed, y, obj_platforms)){//if collided
 			x += sign(hspeed)
 		else
 			break
+			show_debug_message(i)
 	}
 	hspeed = 0
 }
