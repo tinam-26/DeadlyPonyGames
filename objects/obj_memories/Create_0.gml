@@ -20,5 +20,3 @@ else {
 	else
 		image_index = 5
 }
-
-global.memory_flag++
