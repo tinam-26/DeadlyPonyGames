@@ -19,13 +19,13 @@ if(coll == noone){ //if not colliding (allows for falling)
 }*/
 
 
-if(place_meeting(x + hspeed, y, obj_platforms)){
-	for (var i = 0; i < abs(hspeed); i++){
-		if(!place_meeting(x - sign(hspeed), y, obj_platforms))
-		x+= sign(hspeed)
+if(place_meeting(x, y + vspeed, obj_platforms)){
+	for (var i = 0; i < abs(vspeed); i++){
+		if(!place_meeting(x, y + sign(vspeed), obj_platforms))
+			y+= sign(vspeed)
 		else
 			break
 	}
-	hspeed = 0
+	vspeed = 0
 	gravity = 0
 }
