@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "08158098-91ee-4c16-a0de-684f6ce33bfd",
+            "Value": {
+                "id": "2d1d4fc6-0d73-4a6e-b08b-d3103c2e7595",
+                "resourcePath": "objects\/obj_controls\/obj_controls.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0a291ed0-b952-43d8-ad8a-c92a43b2ef89",
             "Value": {
                 "id": "3ff359e6-57ae-4300-ba90-a3f2043c3d6d",
@@ -107,6 +115,14 @@
             "Value": {
                 "id": "df87d547-200d-4a80-9e70-fbbb02f8096e",
                 "resourcePath": "sprites\/spr_player_left\/spr_player_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1eed897b-662f-4ff8-9f4d-e82a5ec9442c",
+            "Value": {
+                "id": "2ac8a46c-0527-4e2f-bcfa-307ee6e9649e",
+                "resourcePath": "sprites\/spr_controls\/spr_controls.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -258,7 +274,7 @@
             "Key": "51be10c7-7396-4b17-a69b-3df88fab8e4d",
             "Value": {
                 "id": "673b90de-0def-414e-b421-9f734c5890ec",
-                "resourcePath": "objects\\obj_quit_button1\\obj_quit_button1.yy",
+                "resourcePath": "objects\/obj_quit_button1\/obj_quit_button1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -335,6 +351,14 @@
             }
         },
         {
+            "Key": "7b2beac8-e0f3-4d90-af1d-ee6098f87be5",
+            "Value": {
+                "id": "54fdaa1f-dff2-42d2-a652-5627f940ab50",
+                "resourcePath": "sprites\/spr_control_room\/spr_control_room.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d30f071-46f5-4d5f-a03e-79434eab01c0",
             "Value": {
                 "id": "9d2212fb-41d1-469f-ba2d-b7d154ad5668",
@@ -402,7 +426,7 @@
             "Key": "8d8c4628-a5be-46e8-8500-0a3395c70504",
             "Value": {
                 "id": "744f1106-3f3d-41a5-8c61-6549666d058d",
-                "resourcePath": "objects\\obj_memories\\obj_memories.yy",
+                "resourcePath": "objects\/obj_memories\/obj_memories.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -458,7 +482,7 @@
             "Key": "a8c10cf2-fde1-4db9-af6e-a266d6d69827",
             "Value": {
                 "id": "76333cb8-b752-4a4c-884d-fb0ed0167579",
-                "resourcePath": "sprites\\spr_quit_button1\\spr_quit_button1.yy",
+                "resourcePath": "sprites\/spr_quit_button1\/spr_quit_button1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -468,6 +492,14 @@
                 "id": "b35afb39-10b3-4335-a296-874ad5dda258",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a987c77d-abd0-4677-bcd5-a3f0c27c7a30",
+            "Value": {
+                "id": "4ff7de7b-70ef-48de-b31c-6d8aff0261d2",
+                "resourcePath": "rooms\/rm_controls\/rm_controls.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
