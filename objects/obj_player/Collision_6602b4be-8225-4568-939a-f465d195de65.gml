@@ -11,11 +11,10 @@ if(keyboard_check(ord("E"))){
 	
 	else if(room == rm_level2){
 		instance_create_layer(1220, 200, "Layer_Enemy", obj_enemy_paint)
-		instance_create_layer(1600, 500, "Layer_Enemy", obj_enemy_paint)
 	}
 	
 	else {
-		instance_create_layer(1450, 950, "Layer_Enemy", obj_enemy_octo)
+		instance_create_layer(1450, 860, "Layer_Enemy", obj_enemy_octo)
 	}
 	
 	instance_destroy(other);
