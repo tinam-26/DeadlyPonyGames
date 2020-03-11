@@ -8,8 +8,9 @@ if(keyboard_check(ord("E"))){
 		instance_create_layer(640, 576, "Layer_Enemy", obj_enemy_ferris_wheel)
 	}
 	
-	else if(room == rm_level3){
-		
+	else if(room == rm_level2){
+		instance_create_layer(1220, 200, "Layer_Enemy", obj_enemy_paint)
+		instance_create_layer(1465, 550, "Layer_Enemy", obj_enemy_paint)
 	}
 	
 	instance_destroy(other);
