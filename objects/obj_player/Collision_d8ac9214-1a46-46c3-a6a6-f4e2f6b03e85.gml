@@ -7,4 +7,6 @@ if(keyboard_check(ord("E"))){
 	instance_destroy(other);
 	instance_destroy(obj_bad_chest);
 	//TODO: Change Background
+	
+	audio_play_sound(snd_chest, 10, false); 
 }
