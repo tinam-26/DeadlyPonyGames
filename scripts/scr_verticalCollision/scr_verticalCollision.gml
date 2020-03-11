@@ -1,4 +1,4 @@
-var coll = instance_place(x, y+vspeed, obj_platforms) //get object collided with
+/*var coll = instance_place(x, y+vspeed, obj_platforms) //get object collided with
 
 if(coll != noone){
 	var y_dis = coll.y - y
@@ -16,4 +16,16 @@ if(coll != noone){
 
 if(coll == noone){ //if not colliding (allows for falling)
 	gravity = 1
+}*/
+
+
+if(place_meeting(x + hspeed, y, obj_platforms)){
+	for (var i = 0; i < abs(hspeed); i++){
+		if(!place_meeting(x - sign(hspeed), y, obj_platforms))
+		x+= sign(hspeed)
+		else
+			break
+	}
+	hspeed = 0
+	gravity = 0
 }
