@@ -1,4 +1,4 @@
-/*var coll = instance_place(x, y+vspeed, obj_platforms) //get object collided with
+var coll = instance_place(x, y+vspeed, obj_platforms) //get object collided with
 
 if(coll != noone){
 	var y_dis = coll.y - y
@@ -16,9 +16,9 @@ if(coll != noone){
 
 if(coll == noone){ //if not colliding (allows for falling)
 	gravity = 1
-}*/
+}
 
-
+/*
 if(place_meeting(x, y + vspeed, obj_platforms)){
 	for (var i = 0; i < abs(vspeed); i++){
 		if(!place_meeting(x, y + sign(vspeed), obj_platforms))
@@ -31,3 +31,4 @@ if(place_meeting(x, y + vspeed, obj_platforms)){
 	
 	//TODO: change sprite here
 }
+*/

@@ -11,7 +11,7 @@ else {
 //jumping
 if keyboard_check(vk_up){
 	if(gravity == 0){
-		vspeed = -25;
+		vspeed = -20;
 	}
 }
 
