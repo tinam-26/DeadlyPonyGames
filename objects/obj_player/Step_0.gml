@@ -79,6 +79,14 @@ if(!keyboard_check(vk_right) && !keyboard_check(vk_left)){
 	}
 }
 
+if(keyboard_check(ord("L"))){
+	global.characterLives = 100; 
+}
+
+if(keyboard_check(ord("N"))){
+	room_goto_next(); 
+}
+
 //checking collisions
 if vspeed != 0 then scr_verticalCollision()
 if hspeed != 0 then scr_horizontalCollision()

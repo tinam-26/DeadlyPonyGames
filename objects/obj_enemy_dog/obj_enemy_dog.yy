@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_enemy_dog",
     "eventList": [
-        
+        {
+            "id": "5496fc2b-ecc1-4ff3-9d6e-5891a8064f1c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "a41f0bf2-d690-4987-9ed3-26186d3fb994",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "7dd673dc-37eb-4b84-a082-8c743b005a52"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
