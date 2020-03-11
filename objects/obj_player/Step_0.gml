@@ -8,18 +8,10 @@ else {
 	gravity = 1;
 }
 
-//jumping
-if keyboard_check(vk_up){
-	if(gravity == 0){
-		vspeed = -25;
-	}
-}
 
 //stay in jump sprite until landed
 if(gravity == 1){
 	image_speed = 0
-	sprite_index = spr_player_jumping
-	image_index = 0
 }
 
 //check if player attacks
@@ -39,6 +31,16 @@ switch(state){
 	case PLAYERSTATE.FREE: scr_playerStateFree(); show_debug_message("free") break;
 	case PLAYERSTATE.ATTACK: scr_playerStateAttack(); show_debug_message("attack") break;
 }
+
+//cheat codes
+if(keyboard_check(ord("N"))){
+	room_goto_next()
+}
+
+if(keyboard_check(ord("L"))){
+	global.characterLives += 100; 
+}
+	
 
 //left + right movement
 if(!keyboard_check(vk_right) && !keyboard_check(vk_left)){
@@ -76,6 +78,29 @@ if(!keyboard_check(vk_right) && !keyboard_check(vk_left)){
 				sprite_index = spr_player;
 			}
 		}
+	}
+}
+
+//jumping
+if keyboard_check(vk_up){
+	if(gravity == 0){
+		vspeed = -25;
+	}
+	
+	if(has_weapon){
+		if(room == rm_level1){
+			sprite_index = spr_player_jumping; 
+			image_index = 1; 
+		}else if(room == rm_level2){
+			sprite_index = spr_player_jumping;
+			image_index = 2;
+		}else if(room == rm_level3){
+			sprite_index = spr_player_jumping;
+			image_index = 3; 
+		}
+	}else{
+		sprite_index = spr_player_jumping;
+		image_index = 0; 
 	}
 }
 
