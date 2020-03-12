@@ -57,7 +57,7 @@ if(!keyboard_check(vk_right) && !keyboard_check(vk_left)){
 				}else if(room == rm_level2){
 					sprite_index = spr_player_with_paint_brush;
 				}else if(room == rm_level3){
-					sprite_index = spr_player_with_bone;
+					sprite_index = spr_player_with_bone_left;
 				}
 			}else{
 				sprite_index = spr_player;
